@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "AI Assistant",
+    "version": "1.0",
+    "description": "Highlight text or screenshot to ask a prompt",
+    "permissions": [
+        "activeTab",
+        "storage",
+        "scripting",
+        "contextMenus"
+        ],
+    "background": {
+        "service_worker": "background/background.js"
+    }
+}
